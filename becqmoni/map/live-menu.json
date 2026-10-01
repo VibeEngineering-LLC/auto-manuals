@@ -1,0 +1,1232 @@
+{
+ "window": "BecqMoni Nuclear Edition 2026.09.29.01",
+ "menus": [
+  {
+   "name": "Файл",
+   "automation_id": "",
+   "enabled": true,
+   "rect": [
+    960,
+    33,
+    1008,
+    53
+   ],
+   "accelerator": "",
+   "path": [
+    "Файл"
+   ],
+   "children": [
+    {
+     "name": "Новый",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      960,
+      54,
+      1162,
+      76
+     ],
+     "accelerator": "CTRL+N",
+     "path": [
+      "Файл",
+      "Новый"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Открыть...",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      960,
+      76,
+      1162,
+      98
+     ],
+     "accelerator": "CTRL+O",
+     "path": [
+      "Файл",
+      "Открыть..."
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Сохранить",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      960,
+      98,
+      1162,
+      120
+     ],
+     "accelerator": "CTRL+S",
+     "path": [
+      "Файл",
+      "Сохранить"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Сохранить как",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      960,
+      120,
+      1162,
+      142
+     ],
+     "accelerator": "",
+     "path": [
+      "Файл",
+      "Сохранить как"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Закрыть",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      960,
+      142,
+      1162,
+      164
+     ],
+     "accelerator": "CTRL+W",
+     "path": [
+      "Файл",
+      "Закрыть"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Объединение спектров",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      960,
+      164,
+      1162,
+      186
+     ],
+     "accelerator": "",
+     "path": [
+      "Файл",
+      "Объединение спектров"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Закрыть Всё",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      960,
+      186,
+      1162,
+      208
+     ],
+     "accelerator": "",
+     "path": [
+      "Файл",
+      "Закрыть Всё"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "separator": true
+    },
+    {
+     "name": "Импорт",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      960,
+      214,
+      1162,
+      236
+     ],
+     "accelerator": "",
+     "path": [
+      "Файл",
+      "Импорт"
+     ],
+     "children": [
+      {
+       "name": "Формат Atom Spectra v3",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        216,
+        1501,
+        238
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Импорт",
+        "Формат Atom Spectra v3"
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "Файл формата N42",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        238,
+        1501,
+        260
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Импорт",
+        "Файл формата N42"
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "CSV (Channel,Counts) Файл",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        260,
+        1501,
+        282
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Импорт",
+        "CSV (Channel,Counts) Файл"
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "CSV (Energy,Counts) Файл",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        282,
+        1501,
+        304
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Импорт",
+        "CSV (Energy,Counts) Файл"
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "SpectraLine GBS",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        304,
+        1501,
+        326
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Импорт",
+        "SpectraLine GBS"
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "Импорт при помощи SpectUtils..",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        326,
+        1501,
+        348
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Импорт",
+        "Импорт при помощи SpectUtils.."
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "Старый формат BecqMoni (v0.93Beta или ранее)",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        348,
+        1501,
+        370
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Импорт",
+        "Старый формат BecqMoni (v0.93Beta или ранее)"
+       ],
+       "children": [],
+       "separator": false
+      }
+     ],
+     "separator": false
+    },
+    {
+     "name": "Экспорт",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "accelerator": "",
+     "path": [
+      "Файл",
+      "Экспорт"
+     ],
+     "children": [
+      {
+       "name": "Файл N42",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        238,
+        1372,
+        260
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Экспорт",
+        "Файл N42"
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "Формат Atom Spectra v3",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        260,
+        1372,
+        282
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Экспорт",
+        "Формат Atom Spectra v3"
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "Файл CSV",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        282,
+        1372,
+        304
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Экспорт",
+        "Файл CSV"
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "Расширенный CSV файл",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        304,
+        1372,
+        326
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Экспорт",
+        "Расширенный CSV файл"
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "для FWHM",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1162,
+        326,
+        1372,
+        348
+       ],
+       "accelerator": "",
+       "path": [
+        "Файл",
+        "Экспорт",
+        "для FWHM"
+       ],
+       "children": [],
+       "separator": false
+      }
+     ],
+     "separator": false
+    },
+    {
+     "separator": true
+    },
+    {
+     "name": "Выход",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "accelerator": "",
+     "path": [
+      "Файл",
+      "Выход"
+     ],
+     "children": [],
+     "separator": false
+    }
+   ],
+   "separator": false
+  },
+  {
+   "name": "Спектр",
+   "automation_id": "",
+   "enabled": true,
+   "rect": [
+    1008,
+    33,
+    1066,
+    53
+   ],
+   "accelerator": "",
+   "path": [
+    "Спектр"
+   ],
+   "children": [
+    {
+     "name": "Новый",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      54,
+      1317,
+      76
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Новый"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Удалить",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      76,
+      1317,
+      98
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Удалить"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Импорт из файла",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      98,
+      1317,
+      120
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Импорт из файла"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Экспорт спектра в файл",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      120,
+      1317,
+      142
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Экспорт спектра в файл"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Экспортировать спектр фона в файл",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      142,
+      1317,
+      164
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Экспортировать спектр фона в файл"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Жёсткий вычет в файл",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      164,
+      1317,
+      186
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Жёсткий вычет в файл"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Изменить число каналов",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      186,
+      1317,
+      208
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Изменить число каналов"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Ограничить энергию или канал",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      208,
+      1317,
+      230
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Ограничить энергию или канал"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Нормализовать спектр по ROI",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      230,
+      1317,
+      252
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Нормализовать спектр по ROI"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Применить коррекцию мёртвого времени",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      252,
+      1317,
+      274
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Применить коррекцию мёртвого времени"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Автосохранение спектра",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      274,
+      1317,
+      296
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Автосохранение спектра"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "separator": true
+    },
+    {
+     "name": "Начало измерения",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      302,
+      1317,
+      324
+     ],
+     "accelerator": "CTRL+M",
+     "path": [
+      "Спектр",
+      "Начало измерения"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Остановить измерение",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      324,
+      1317,
+      346
+     ],
+     "accelerator": "CTRL+P",
+     "path": [
+      "Спектр",
+      "Остановить измерение"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Очистить спектр",
+     "automation_id": "",
+     "enabled": false,
+     "rect": [
+      1008,
+      346,
+      1317,
+      368
+     ],
+     "accelerator": "",
+     "path": [
+      "Спектр",
+      "Очистить спектр"
+     ],
+     "children": [],
+     "separator": false
+    }
+   ],
+   "separator": false
+  },
+  {
+   "name": "Вид",
+   "automation_id": "",
+   "enabled": true,
+   "rect": [
+    1066,
+    33,
+    1105,
+    53
+   ],
+   "accelerator": "",
+   "path": [
+    "Вид"
+   ],
+   "children": [
+    {
+     "name": "Управление измерением",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1066,
+      54,
+      1279,
+      76
+     ],
+     "accelerator": "",
+     "path": [
+      "Вид",
+      "Управление измерением"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Информация об образце",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1066,
+      76,
+      1279,
+      98
+     ],
+     "accelerator": "",
+     "path": [
+      "Вид",
+      "Информация об образце"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Список спектров",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1066,
+      98,
+      1279,
+      120
+     ],
+     "accelerator": "",
+     "path": [
+      "Вид",
+      "Список спектров"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Калибровка энергии",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1066,
+      120,
+      1279,
+      142
+     ],
+     "accelerator": "",
+     "path": [
+      "Вид",
+      "Калибровка энергии"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Обнаружение пиков",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1066,
+      142,
+      1279,
+      164
+     ],
+     "accelerator": "",
+     "path": [
+      "Вид",
+      "Обнаружение пиков"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Монитор импульсов",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1066,
+      164,
+      1279,
+      186
+     ],
+     "accelerator": "",
+     "path": [
+      "Вид",
+      "Монитор импульсов"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Скорость счёта",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1066,
+      186,
+      1279,
+      208
+     ],
+     "accelerator": "",
+     "path": [
+      "Вид",
+      "Скорость счёта"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Калибровка по FWHM",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1066,
+      208,
+      1279,
+      230
+     ],
+     "accelerator": "",
+     "path": [
+      "Вид",
+      "Калибровка по FWHM"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Отчёт FSA",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1066,
+      230,
+      1279,
+      252
+     ],
+     "accelerator": "",
+     "path": [
+      "Вид",
+      "Отчёт FSA"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Результат измерений",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1066,
+      252,
+      1279,
+      274
+     ],
+     "accelerator": "",
+     "path": [
+      "Вид",
+      "Результат измерений"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "separator": true
+    },
+    {
+     "name": "Язык",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1066,
+      280,
+      1279,
+      302
+     ],
+     "accelerator": "",
+     "path": [
+      "Вид",
+      "Язык"
+     ],
+     "children": [
+      {
+       "name": "(Как в системе)",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1279,
+        282,
+        1437,
+        304
+       ],
+       "accelerator": "",
+       "path": [
+        "Вид",
+        "Язык",
+        "(Как в системе)"
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "English",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1279,
+        304,
+        1437,
+        326
+       ],
+       "accelerator": "",
+       "path": [
+        "Вид",
+        "Язык",
+        "English"
+       ],
+       "children": [],
+       "separator": false
+      },
+      {
+       "name": "Русский",
+       "automation_id": "",
+       "enabled": true,
+       "rect": [
+        1279,
+        326,
+        1437,
+        348
+       ],
+       "accelerator": "",
+       "path": [
+        "Вид",
+        "Язык",
+        "Русский"
+       ],
+       "children": [],
+       "separator": false
+      }
+     ],
+     "separator": false
+    }
+   ],
+   "separator": false
+  },
+  {
+   "name": "Инструменты",
+   "automation_id": "",
+   "enabled": true,
+   "rect": [
+    1105,
+    33,
+    1200,
+    53
+   ],
+   "accelerator": "",
+   "path": [
+    "Инструменты"
+   ],
+   "children": [
+    {
+     "name": "Конфигурация устройства...",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1105,
+      54,
+      1533,
+      76
+     ],
+     "accelerator": "",
+     "path": [
+      "Инструменты",
+      "Конфигурация устройства..."
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Редактировать конфигурации ROI...",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1105,
+      76,
+      1533,
+      98
+     ],
+     "accelerator": "",
+     "path": [
+      "Инструменты",
+      "Редактировать конфигурации ROI..."
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Редактировать библиотеку изотопов...",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1105,
+      98,
+      1533,
+      120
+     ],
+     "accelerator": "",
+     "path": [
+      "Инструменты",
+      "Редактировать библиотеку изотопов..."
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Редактировать наборы изотопов...",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1105,
+      120,
+      1533,
+      142
+     ],
+     "accelerator": "",
+     "path": [
+      "Инструменты",
+      "Редактировать наборы изотопов..."
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "База изотопов...",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1105,
+      142,
+      1533,
+      164
+     ],
+     "accelerator": "",
+     "path": [
+      "Инструменты",
+      "База изотопов..."
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Открыть папку конфигурации приложения в Windows Explorer...",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1105,
+      164,
+      1533,
+      186
+     ],
+     "accelerator": "",
+     "path": [
+      "Инструменты",
+      "Открыть папку конфигурации приложения в Windows Explorer..."
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "separator": true
+    },
+    {
+     "name": "Настройки",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1105,
+      192,
+      1533,
+      214
+     ],
+     "accelerator": "",
+     "path": [
+      "Инструменты",
+      "Настройки"
+     ],
+     "children": [],
+     "separator": false
+    }
+   ],
+   "separator": false
+  },
+  {
+   "name": "Помощь",
+   "automation_id": "",
+   "enabled": true,
+   "rect": [
+    1200,
+    33,
+    1268,
+    53
+   ],
+   "accelerator": "",
+   "path": [
+    "Помощь"
+   ],
+   "children": [
+    {
+     "name": "Инструкция",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1200,
+      54,
+      1413,
+      76
+     ],
+     "accelerator": "",
+     "path": [
+      "Помощь",
+      "Инструкция"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "separator": true
+    },
+    {
+     "name": "Проверить обновление...",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1200,
+      82,
+      1413,
+      104
+     ],
+     "accelerator": "",
+     "path": [
+      "Помощь",
+      "Проверить обновление..."
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "Показать журнал",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1200,
+      104,
+      1413,
+      126
+     ],
+     "accelerator": "",
+     "path": [
+      "Помощь",
+      "Показать журнал"
+     ],
+     "children": [],
+     "separator": false
+    },
+    {
+     "name": "О BQMoni...",
+     "automation_id": "",
+     "enabled": true,
+     "rect": [
+      1200,
+      126,
+      1413,
+      148
+     ],
+     "accelerator": "",
+     "path": [
+      "Помощь",
+      "О BQMoni..."
+     ],
+     "children": [],
+     "separator": false
+    }
+   ],
+   "separator": false
+  }
+ ],
+ "count_items": 5,
+ "count_submenus": 8,
+ "errors": []
+}

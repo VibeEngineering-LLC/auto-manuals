@@ -1,0 +1,82 @@
+# Меню: MainForm.Designer.cs
+
+Источник: `BecquerelMonitor`. Подпись RU / EN | клавиши | обработчик Click (строка Designer).
+
+## menuStrip1
+- **&Файл** / &File |  |  | `fileFToolStripMenuItem` :24
+  - **&Новый** / &New | Ctrl+N | newSpectrumNToolStripMenuItem_Click (:147) | `newSpectrumNToolStripMenuItem` :25
+  - **&Открыть...** / &Open... | Ctrl+O | openDataToolStripMenuItem_Click (:154) | `openDataToolStripMenuItem` :26
+  - **&Сохранить** / &Save | Ctrl+S | saveDataSToolStripMenuItem_Click (:161) | `saveDataSToolStripMenuItem` :27
+  - **Сохранить &как** / Save &As... |  | saveDataAsRToolStripMenuItem_Click (:167) | `saveDataAsRToolStripMenuItem` :28
+  - **&Закрыть** / &Close | Ctrl+W | closeDataCToolStripMenuItem_Click (:174) | `closeDataCToolStripMenuItem` :29
+  - **О&бъединение спектров** / Co&mbine Spectras |  | CombineSpectrasToolStripMenuItem_Click (:180) | `CombineSpectrasToolStripMenuItem` :30
+  - **Закрыть &Всё** / Close A&ll |  | CloseAllToolStripMenuItem_Click (:186) | `CloseAllToolStripMenuItem` :31
+  - ———
+  - **&Импорт** / &Import |  |  | `importIToolStripMenuItem` :33
+    - **Формат Atom Spectra v3** / Atom Spectra v3 format |  | AtomSpectraStripMenuItem_Click (:210) | `AtomSpectraStripMenuItem` :34
+    - **Файл формата N42** / N42 file format |  | N42StripMenuItem_Click (:216) | `N42StripMenuItem` :35
+    - **CSV (Channel,Counts) Файл** / CSV (Channel,Counts) File |  | csvFileImportToolStripMenuItem_Click (:222) | `cSVFileToolStripMenuItem` :36
+    - **CSV (Energy,Counts) Файл** / CSV (Energy,Counts) File |  | csvEnergyFileImportToolStripMenuItem_Click (:230) | `cSVEnFileToolStripMenuItem` :37
+    - **SpectraLine GBS** / SpectraLine GBS |  | GBSFileToolStripMenuItem_Click (:236) | `GBSFileToolStripMenuItem` :38
+    - **Импорт при помощи SpectUtils..** / Import using SpectUtils.. |  | SpecUtilsToolStripMenuItem_Click (:242) | `SpecUtilsToolStripMenuItem` :39
+    - **Старый формат BecqMoni (v0.93Beta или ранее)** / BecqMoni old format (v0.93Beta or earlier) |  | legacyFormatV093bToolStripMenuItem_Click (:248) | `legacyFormatV093bToolStripMenuItem` :40
+  - **&Экспорт** / &Export |  |  | `exportEToolStripMenuItem` :41
+    - **Файл N42** / N42 file |  | N42ExpStripMenuItem_Click (:265) | `N42ExpStripMenuItem` :42
+    - **Формат Atom Spectra v3** / Atom Spectra v3 format |  | AtomSpectraExpStripMenuItem_Click (:271) | `AtomSpectraExpStripMenuItem` :43
+    - **&Файл CSV** / &CSV File |  | cSVCToolStripMenuItem_Click (:277) | `cSVCToolStripMenuItem` :44
+    - **&Расширенный CSV файл** / &Extended CSV File |  | ECSVToolStripMenuItem_Click (:283) | `ECSVToolStripMenuItem` :45
+    - **для FWHM** / for FWHM |  | forFwhmToolStripMenuItem_Click (:289) | `forFwhmToolStripMenuItem` :46
+  - ———
+  - **Вы&ход** / E&xit |  | exitXToolStripMenuItem_Click (:300) | `exitXToolStripMenuItem` :48
+- **&Спектр** / &Spectrum |  |  | `spectrumSToolStripMenuItem` :49
+  - **&Новый** / &New |  | newSpectrumNToolStripMenuItem1_Click (:328) | `newSpectrumNToolStripMenuItem1` :50
+  - **&Удалить** / &Delete |  | deleteDToolStripMenuItem_Click (:334) | `deleteDToolStripMenuItem` :51
+  - **&Импорт из файла** / &Import from File |  | addSpectrumFromFileFToolStripMenuItem_Click (:340) | `addFromExistingFileFToolStripMenuItem` :52
+  - **&Экспорт спектра в файл** / &Export Spectrum to File |  | toolStripMenuItem1_Click (:346) | `exportToFileStripMenuItem` :53
+  - **Экспортировать спектр фона в файл** / Export Background Spectrum to File |  | exportBgToolStripMenuItem_Click (:352) | `exportBgToolStripMenuItem` :54
+  - **Жёсткий вычет в файл** / Hard subtract to File |  | hardSubtractToolStripMenuItem_Click (:358) | `hardSubtractToolStripMenuItem` :55
+  - **Изменить число каналов** / Change channel number |  | ConcatSpectrumsStripMenuItem_Click (:364) | `ConcatSpectrumsStripMenuItem` :56
+  - **Ограничить энергию или канал** / Cutoff energy or channel |  | CutoffStripMenuItem_Click (:370) | `CutoffStripMenuItem` :57
+  - **Нормализовать спектр по ROI** / Normalize spectrum with ROI |  | NormalizeSpectrumStripMenuItem_Click (:376) | `NormalizeSpectrumStripMenuItem` :58
+  - **Применить коррекцию мёртвого времени** / Apply dead time correction |  | ApplyDeadTimeCorrectionStripMenuItem_Click (:382) | `ApplyDeadTimeCorrectionStripMenuItem` :59
+  - **Автосохранение спектра** / Autosave spectrum |  | AutoSaveStripMenuItem_Click (:389) | `AutoSaveStripMenuItem` :60
+  - ———
+  - **Начало из&мерения** / &Start Measurement | Ctrl+M | startMeasurementSToolStripMenuItem_Click (:402) | `startMeasurementSToolStripMenuItem` :62
+  - **О&становить измерение** / S&top Measurement | Ctrl+P | stopMeasurementTToolStripMenuItem_Click (:410) | `stopMeasurementTToolStripMenuItem` :63
+  - **&Очистить спектр** / &Clear Spectrum |  | clearDataCToolStripMenuItem_Click (:417) | `clearDataCToolStripMenuItem` :64
+- **&Вид** / &View |  |  | `viewTToolStripMenuItem` :65
+  - **&Управление измерением** / Measurement &Control |  | controlPanelCToolStripMenuItem_Click (:443) | `controlPanelCToolStripMenuItem` :66
+  - **&Информация об образце** / &Sample Information |  | sampleInfoSToolStripMenuItem_Click (:449) | `sampleInfoSToolStripMenuItem` :67
+  - **&Список спектров** / Spectrum L&ist |  | spectrumListLToolStripMenuItem_Click (:455) | `spectrumListLToolStripMenuItem` :68
+  - **Калибровка &энергии** / &Energy Calibration |  | toolStripMenuItem4_Click (:461) | `energyCalibrationStripMenuItem` :69
+  - **&Обнаружение пиков** / Peak &Detection |  | peakDetectionDToolStripMenuItem_Click (:467) | `peakDetectionDToolStripMenuItem` :70
+  - **&Монитор импульсов** / &Pulse Monitor |  | pulseViewPToolStripMenuItem_Click (:473) | `pulseViewPToolStripMenuItem` :71
+  - **С&корость счёта** / Counts R&ate |  | toolStripMenuItem5_Click (:479) | `countsRateStripMenuItem` :72
+  - **Калибровка по FWHM** / FWHM Calibration |  | FWHMCalStripMenuItem_Click (:485) | `FWHMCalStripMenuItem` :73
+  - **От&чёт FSA** / &FSA Report |  | fsaReportStripMenuItem_Click (:491) | `fsaReportStripMenuItem` :74
+  - **&Результат измерений** / Measurement &Result |  | measurementResultsRToolStripMenuItem_Click (:497) | `measurementResultsRToolStripMenuItem` :75
+  - ———
+  - **Расположение** / Layout |  |  | `toolStripMenuItem7` :77
+    - **Пользовательский режим** / User Mode |  | userLayoutToolStripMenuItem_Click (:516) | `userLayoutToolStripMenuItem` :78
+    - **Экспертный режим** / Expert Mode |  | expertLayoutToolStripMenuItem_Click (:522) | `expertLayoutToolStripMenuItem` :79
+  - ———
+  - **&Язык** / &Language |  |  | `languageToolStripMenuItem` :81
+    - **(Как в системе)** / (OS Default) |  | oSDefaultToolStripMenuItem_Click (:542) | `oSDefaultToolStripMenuItem` :82
+    - **English** / English |  | neutralToolStripMenuItem_Click (:548) | `neutralToolStripMenuItem` :83
+    - **Русский** / Russian |  | jaJPToolStripMenuItem_Click (:554) | `jaJPToolStripMenuItem` :84
+- **&Инструменты** / &Tool |  |  | `toolsTToolStripMenuItem1` :85
+  - **&Конфигурация устройства...** / Edit &Device Configurations... |  | editDeviceConfigurationDToolStripMenuItem_Click (:574) | `editDeviceConfigurationDToolStripMenuItem` :86
+  - **Редактировать конфи&гурации ROI...** / Edit &ROI Configurations... |  | roiDefinitionRToolStripMenuItem_Click (:580) | `roiDefinitionRToolStripMenuItem` :87
+  - **Редактировать &библиотеку изотопов...** / Edit &Nuclide Definitions... |  | NuclideDefinitionToolStripMenuItem_Click (:586) | `NuclideDefinitionToolStripMenuItem` :88
+  - **Редактировать наборы изотопов...** / Edit Nuclide Sets... |  | NuclideSetToolStripMenuItem_Click (:592) | `NuclideSetToolStripMenuItem` :89
+  - **База изотопов...** / Isotope base... |  | NucDB_Click (:599) | `NucDB` :90
+  - **Открыть папку конфигурации приложения в Windows Explorer...** / Open config dir in Explorer... |  | OpenConfigNToolStripMenuItem_Click (:605) | `OpenConfigNToolStripMenuItem` :91
+  - ———
+  - **&Настройки** / &Preferences |  | basicSettingsBToolStripMenuItem_Click (:616) | `basicSettingsBToolStripMenuItem` :93
+- **&Помощь** / &Help |  |  | `helpHToolStripMenuItem` :94
+  - **&Инструкция** / &Manual |  | manualMToolStripMenuItem_Click (:633) | `manualMToolStripMenuItem` :95
+  - ———
+  - **&Проверить обновление...** / &Check for updates... |  | UpdatesAToolStripMenuItem_Click (:644) | `UpdatesAToolStripMenuItem` :98
+  - **⚠ нет RU** /  |  | showLogToolStripMenuItem_Click (:649) | `showLogToolStripMenuItem` :96
+  - **&О BQMoni...** / &About... |  | versionInfoAToolStripMenuItem_Click (:655) | `versionInfoAToolStripMenuItem` :99
+
