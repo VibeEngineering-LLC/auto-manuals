@@ -7,7 +7,7 @@
 |---|---|
 | [`manual/2026.09.29/MANUAL.md`](manual/2026.09.29/MANUAL.md) | каркас руководства: шесть глав по образцу отраслевого руководства, уровни читателя, статусы разделов |
 | [`map/menu-MainForm.md`](map/menu-MainForm.md) | меню основного окна: 69 пунктов, подписи RU/EN, горячие клавиши, обработчики (`MainForm.Designer.cs:строка`) |
-| [`map/designer.json`](map/designer.json) | карта 42 форм по исходникам upstream (коммит `11c4235`): 1072 элемента, 114 пунктов меню |
+| [`map/designer.json`](map/designer.json) | карта 42 файлов разметки интерфейса (окна, панели, элементы управления) по исходникам upstream (коммит `11c4235`): 1072 элемента, 114 пунктов меню |
 | [`map/live-menu.json`](map/live-menu.json) | меню живой сборки 2026.09.29.01, снятое через UI Automation |
 | [`shots/main-window-ru.png`](shots/main-window-ru.png) | основное окно, русский интерфейс, чистый профиль |
 

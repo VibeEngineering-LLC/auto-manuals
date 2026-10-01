@@ -1,4 +1,4 @@
-"""Start a process on a hidden Win32 desktop in the same session (operator's desktop untouched).
+"""Start a process on a hidden Win32 desktop in the same session (user's visible desktop untouched).
 Usage: hdesk.py <desktop_name> <cwd> <cmdline...>   -> prints PID, waits for child exit (run in background)."""
 import sys, ctypes as C, ctypes.wintypes as W
 sys.stdout.reconfigure(encoding="utf-8")
